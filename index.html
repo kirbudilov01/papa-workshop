@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f3ec">
+  <meta name="description" content="Свежие DIY-видео, реставрация, находки для мастерской и местные предложения в Белгороде.">
+  <title>Верстак идей — вдохновение для мастерской</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Верстак идей — на главную"><span class="brand-icon" aria-hidden="true">✳</span><span>Верстак идей<small>Хорошие вещи начинаются с любопытства</small></span></a>
+      <button class="saved-shortcut" data-tab="saved"><span aria-hidden="true">♡</span> Моё избранное <span id="saved-count">0</span></button>
+    </header>
+    <main>
+      <section class="intro">
+        <div><p class="eyebrow">ДЛЯ ТЕХ, КТО ЛЮБИТ ДЕЛАТЬ</p><h1>А что, если<br>сделать <em>вот так?</em></h1><p class="intro-copy">Реставрация, находчивые самоделки и инструменты,<br class="desktop-break"> которые хочется попробовать в своей мастерской.</p></div>
+        <aside class="intro-note"><span class="note-mark" aria-hidden="true">↗</span><p>Одна хорошая идея<br>может стать<br><strong>следующим проектом.</strong></p><span class="note-line"></span><small id="update-label">Загружаем свежую подборку…</small></aside>
+      </section>
+      <nav class="tabs" aria-label="Разделы доски">
+        <button class="active" data-tab="all" aria-pressed="true">Всё интересное</button>
+        <button data-tab="restoration" aria-pressed="false">Реставрация</button>
+        <button data-tab="making" aria-pressed="false">Самоделки</button>
+        <button data-tab="tools" aria-pressed="false">Инструменты</button>
+        <button data-tab="electronics" aria-pressed="false">Электроника</button>
+        <button data-tab="local" aria-pressed="false">↗ Белгород</button>
+      </nav>
+      <section class="controls" aria-label="Поиск и сортировка">
+        <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Найти идею, автора или инструмент…" aria-label="Поиск по доске"></label>
+        <div class="selects"><label><span class="sr-only">Период публикации</span><select id="period"><option value="30">За 30 дней</option><option value="7">За 7 дней</option><option value="90">За 90 дней</option><option value="365">За год</option></select></label><label><span class="sr-only">Сортировка</span><select id="sort"><option value="popular">Популярные</option><option value="new">Сначала новые</option></select></label></div>
+      </section>
+      <div class="section-heading"><div><h2 id="section-title">Есть на что посмотреть</h2><p id="section-description">Отбираем идеи из публичных лент авторов.</p></div><span id="result-count" aria-live="polite"></span></div>
+      <div id="status" role="status"></div>
+      <section id="cards" class="cards" aria-label="Карточки вдохновения"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></section>
+      <section id="empty" class="empty" hidden><span aria-hidden="true">✳</span><h2>Здесь пока тихо</h2><p id="empty-copy">Попробуйте другую тему или увеличьте период.</p><button id="reset-filters" class="primary">Показать всё за год</button></section>
+      <section class="bottom-note"><span aria-hidden="true">✧</span><div><h2>Сначала сохранить. Потом — попробовать.</h2><p>Нажмите на сердечко у понравившейся идеи. Избранное останется в этом браузере — можно вернуться к нему, когда появится время.</p></div><button data-tab="saved">Открыть избранное <span aria-hidden="true">↗</span></button></section>
+    </main>
+    <footer><div><strong>Верстак идей</strong><p>Живая полка для вашей следующей работы.</p></div><div><button id="show-sources">Источники и обновление</button><p id="scope-note">Публичные видео и ссылки на продавцов. Без автоматических покупок.</p></div></footer>
+  </div>
+  <dialog id="detail"><button class="close" aria-label="Закрыть карточку">×</button><div id="detail-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

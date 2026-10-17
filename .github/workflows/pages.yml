@@ -1,0 +1,36 @@
+name: Publish workshop board
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '37 */6 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh public snapshot
+        run: python3 .github/scripts/sync.py
+      - uses: actions/configure-pages@v5
+      - name: Prepare only public files
+        run: |
+          mkdir _site
+          cp index.html style.css app.js board.json .nojekyll _site/
+          cp -R thumbs _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
