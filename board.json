@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-17T22:20:19.842441+00:00",
+  "fetched_at": "2026-10-18T04:22:41.823738+00:00",
   "refresh_hours": 6,
   "coverage": {
     "configured_authors": 10,
-    "available_authors": 10,
+    "available_authors": 1,
     "videos": 101,
     "self_hosted_previews": 101
   },
@@ -13,45 +13,45 @@
       "channel_id": "UCMrMVIBtqFW6O0-MWq26gqw",
       "category": "restoration",
       "url": "https://www.youtube.com/channel/UCMrMVIBtqFW6O0-MWq26gqw",
-      "status": "ok",
-      "record_count": 15,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "status": "unavailable",
+      "record_count": 0,
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     },
     {
       "name": "Hand Tool Rescue",
       "channel_id": "UCasG9kJWi1eVxM0QkyqKVJQ",
       "category": "restoration",
       "url": "https://www.youtube.com/channel/UCasG9kJWi1eVxM0QkyqKVJQ",
-      "status": "ok",
-      "record_count": 15,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "status": "unavailable",
+      "record_count": 0,
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     },
     {
       "name": "Odd Tinkering",
       "channel_id": "UCf_suVrG2dA5BTjJhNLwthQ",
       "category": "electronics",
       "url": "https://www.youtube.com/channel/UCf_suVrG2dA5BTjJhNLwthQ",
-      "status": "ok",
-      "record_count": 15,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "status": "unavailable",
+      "record_count": 0,
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     },
     {
       "name": "TysyTube Restoration",
       "channel_id": "UCIGEtjevANE0Nqain3EqNSg",
       "category": "restoration",
       "url": "https://www.youtube.com/channel/UCIGEtjevANE0Nqain3EqNSg",
-      "status": "ok",
-      "record_count": 15,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "status": "unavailable",
+      "record_count": 0,
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     },
     {
       "name": "Laura Kampf",
       "channel_id": "UCRix1GJvSBNDpEFY561eSzw",
       "category": "making",
       "url": "https://www.youtube.com/channel/UCRix1GJvSBNDpEFY561eSzw",
-      "status": "ok",
-      "record_count": 14,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "status": "unavailable",
+      "record_count": 0,
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     },
     {
       "name": "DIY Perks",
@@ -60,43 +60,43 @@
       "url": "https://www.youtube.com/channel/UCUQo7nzH1sXVpzL92VesANw",
       "status": "ok",
       "record_count": 15,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     },
     {
       "name": "Project Farm",
       "channel_id": "UC2rzsm1Qi6N1X-wuOg_p0Ng",
       "category": "tools",
       "url": "https://www.youtube.com/channel/UC2rzsm1Qi6N1X-wuOg_p0Ng",
-      "status": "ok",
-      "record_count": 13,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "status": "unavailable",
+      "record_count": 0,
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     },
     {
       "name": "I Like To Make Stuff",
       "channel_id": "UC6x7GwJxuoABSosgVXDYtTw",
       "category": "making",
       "url": "https://www.youtube.com/channel/UC6x7GwJxuoABSosgVXDYtTw",
-      "status": "ok",
-      "record_count": 15,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "status": "unavailable",
+      "record_count": 0,
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     },
     {
       "name": "Steve Ramsey",
       "channel_id": "UCBB7sYb14uBtk8UqSQYc9-w",
       "category": "wood",
       "url": "https://www.youtube.com/channel/UCBB7sYb14uBtk8UqSQYc9-w",
-      "status": "ok",
-      "record_count": 14,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "status": "unavailable",
+      "record_count": 0,
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     },
     {
       "name": "AlexGyver",
       "channel_id": "UCgtAOyEQdAyjvm9ATCi_Aig",
       "category": "electronics",
       "url": "https://www.youtube.com/channel/UCgtAOyEQdAyjvm9ATCi_Aig",
-      "status": "ok",
-      "record_count": 15,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00"
+      "status": "unavailable",
+      "record_count": 0,
+      "checked_at": "2026-10-18T04:22:41.823738+00:00"
     }
   ],
   "videos": [
@@ -261,15 +261,15 @@
       "channel_url": "https://www.youtube.com/channel/UCUQo7nzH1sXVpzL92VesANw",
       "source_url": "https://www.youtube.com/watch?v=4VnCJdYImb8",
       "published_at": "2026-09-29T11:30:24+00:00",
-      "views": 3760137,
+      "views": 3764501,
       "thumbnail_url": "https://i1.ytimg.com/vi/4VnCJdYImb8/hqdefault.jpg",
       "category": "electronics",
       "platform": "YouTube",
       "evidence_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUQo7nzH1sXVpzL92VesANw",
       "evidence_type": "public_author_atom_feed",
-      "recent_views": 6256,
+      "recent_views": 4364,
       "recent_views_hours": 6.0,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00",
+      "checked_at": "2026-10-18T04:22:41.823738+00:00",
       "ru_title": "Новый вариант «невидимого» компьютера",
       "takeaway": "Идея по мотивам: спрятать современную электронику в привычный предмет мастерской. Начать с простого макета размещения.",
       "thumbnail": "thumbs/4VnCJdYImb8.jpg"
@@ -1135,15 +1135,15 @@
       "channel_url": "https://www.youtube.com/channel/UCUQo7nzH1sXVpzL92VesANw",
       "source_url": "https://www.youtube.com/watch?v=7FStfdGjAwc",
       "published_at": "2026-07-17T12:00:19+00:00",
-      "views": 1709254,
+      "views": 1710060,
       "thumbnail_url": "https://i4.ytimg.com/vi/7FStfdGjAwc/hqdefault.jpg",
       "category": "electronics",
       "platform": "YouTube",
       "evidence_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUQo7nzH1sXVpzL92VesANw",
       "evidence_type": "public_author_atom_feed",
-      "recent_views": 1084,
+      "recent_views": 806,
       "recent_views_hours": 6.0,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00",
+      "checked_at": "2026-10-18T04:22:41.823738+00:00",
       "thumbnail": "thumbs/7FStfdGjAwc.jpg"
     },
     {
@@ -1623,15 +1623,15 @@
       "channel_url": "https://www.youtube.com/channel/UCUQo7nzH1sXVpzL92VesANw",
       "source_url": "https://www.youtube.com/watch?v=rqCt61ZbU10",
       "published_at": "2026-02-28T12:15:13+00:00",
-      "views": 2196043,
+      "views": 2196187,
       "thumbnail_url": "https://i3.ytimg.com/vi/rqCt61ZbU10/hqdefault.jpg",
       "category": "electronics",
       "platform": "YouTube",
       "evidence_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUQo7nzH1sXVpzL92VesANw",
       "evidence_type": "public_author_atom_feed",
-      "recent_views": 219,
+      "recent_views": 144,
       "recent_views_hours": 6.0,
-      "checked_at": "2026-10-17T22:20:19.842441+00:00",
+      "checked_at": "2026-10-18T04:22:41.823738+00:00",
       "thumbnail": "thumbs/rqCt61ZbU10.jpg"
     },
     {
